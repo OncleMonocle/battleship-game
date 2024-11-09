@@ -1,0 +1,196 @@
+#AppComponentDiv {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("sea.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+#instructionsHeader {
+  place-self: center;
+  margin-top: 10vh;
+}
+
+#playingField {
+  
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  height: 30vw;
+  width: 30vw;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+#playingFieldDiv {
+  margin-left: 5vw;
+  margin-top: 4vh;
+}
+
+#theirPlayingField {
+  
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  height: 30vw;
+  width: 30vw;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+#theirPlayingFieldDiv {
+  position: absolute;
+  right: 5vw;
+  top: 15vh;
+}
+
+.square {
+  border-width: 1px;
+  border-color: rgb(116, 105, 105);
+  border-style: solid;
+}
+
+#shipStyle1 {
+  width: 100px;
+  height: 50px;
+  margin: 0;
+  border-width: 2px;
+  border-color: blueviolet;
+  border-style: solid;
+}
+
+#Carrier {
+  font-size: 30px;
+  width: 15vw;
+  height: 3vw;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  display: flex;
+  margin-bottom: 2%;
+}
+
+
+#CarrierPart {
+  flex: 1;
+  background-color: rgb(134, 124, 111);
+  border-color: bisque;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#Battleship {
+  font-size: 30px;
+  width: 12vw;
+  height: 3vw;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  display: flex;
+  margin-bottom: 2%;
+}
+
+#BattleshipPart {
+  flex: 1;
+  background-color: rgb(101, 77, 45);
+  border-color: bisque;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#Destroyer {
+  font-size: 30px;
+  width: 9vw;
+  height: 3vw;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  display: flex;
+  margin-bottom: 2%;
+}
+
+#DestroyerPart {
+  flex: 1;
+  background-color: rgb(218, 152, 67);
+  border-color: bisque;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#Submariner {
+  font-size: 30px;
+  width: 9vw;
+  height: 3vw;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  display: flex;
+  margin-bottom: 2%;
+}
+
+#SubmarinerPart {
+  flex: 1;
+  background-color: rgb(35, 45, 158);
+  border-color: bisque;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#PatrolBoat {
+  font-size: 30px;
+  width: 6vw;
+  height: 3vw;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  display: flex;
+  margin-bottom: 2%;
+}
+
+#PatrolBoatPart {
+  flex: 1;
+  background-color: rgb(149, 26, 180);
+  border-color: bisque;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#shipContainer {
+  display: grid;
+  position: absolute;
+  top: 25vh;
+  right: 25vw;
+}
+
+.imgExplosion {
+  height: 3vw;
+  position: absolute;
+}
+
+.imgWarning {
+  height: 2.5vw;
+  position: absolute;
+}
+
+#changeDirectionBtn {
+  margin-top: 5vh;
+}
+
+#readyUpBtn {
+  height: 10vh;
+  width: 20vw;
+  background-color: rgb(224, 84, 84);
+}
+
+#gameOverDiv {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  position: absolute;
+  display: grid;
+  background-color: lightslategrey;
+  justify-content: center;
+  align-items: center;
+}
